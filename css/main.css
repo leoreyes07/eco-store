@@ -11,6 +11,7 @@ nav {
   display: flex;
   justify-content: space-between;
   color: #7C6A0A;
+  padding-top: 70px;
   font-weight: 500;
 }
 nav p {
@@ -19,11 +20,47 @@ nav p {
 }
 nav .icon__navbar {
   display: flex;
-  gap: 1.5rem;
+  gap: 15px;
 }
 nav .icon__navbar button {
   background: none;
   border-style: none;
+}
+
+article {
+  width: auto;
+  color: #7C6A0A;
+  padding-left: 55px;
+  padding-right: 55px;
+  display: flex;
+  justify-content: space-between;
+}
+article .info__main {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5rem;
+  gap: 25px;
+}
+article h1 {
+  font-size: 2.9em;
+  padding: 0;
+  margin: 0;
+}
+article p {
+  font-size: 1.5rem;
+}
+article button {
+  width: 12vw;
+  padding: 20px;
+  background: #FA9500;
+  border-style: none;
+  border-radius: 1.5rem;
+  font-size: 1rem;
+  color: #7C6A0A;
+}
+article img {
+  width: 25vw;
+  border-radius: 19px;
 }
 
 footer {
