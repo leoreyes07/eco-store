@@ -42,6 +42,7 @@ article {
     color: $text-color;
     padding-left: 55px;
     padding-right: 55px;
+    padding-top: 70px;
     display: flex;
     justify-content: space-between;
     .info__main {
@@ -74,6 +75,38 @@ article {
             width: 25vw;
             border-radius: 19px;
         }
+}
+
+section {
+    width: 100%;
+    height: auto;
+    padding: 55px;
+    h2 {
+        color: $text-color;
+        font-size: 2em;
+    }
+
+    .healt__care--main {
+        h2 {
+            font-weight: 300;
+            padding-bottom: 60px;
+        }
+
+        .product__card {
+            width: 12vw;
+            height: auto;
+            background-color: $secondary-color;
+            color: $text-color;
+            padding: 20px;
+            border-radius: 8px;
+            img {
+                width: 200px;
+                height: 200px;
+                background-image: cover;
+                border-radius: 6px;
+            }
+        }
+    }
 }
 
 footer {
