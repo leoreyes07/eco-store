@@ -73,14 +73,14 @@ section h2 {
   color: #7C6A0A;
   font-size: 2em;
 }
-section .healt__care--main {
+section .healt__care--main, section .forniture__main {
   padding-bottom: 60px;
 }
-section .healt__care--main h2 {
+section .healt__care--main h2, section .forniture__main h2 {
   font-weight: 300;
   padding-bottom: 60px;
 }
-section .healt__care--main .section__main--card {
+section .healt__care--main .section__main--card, section .forniture__main .section__main--card {
   display: flex;
   width: auto;
   height: auto;
@@ -90,7 +90,7 @@ section .healt__care--main .section__main--card {
   gap: 100px;
   row-gap: 80px;
 }
-section .healt__care--main .section__main--card .product__card {
+section .healt__care--main .product__card, section .forniture__main .product__card {
   width: 16vw;
   height: 45vh;
   background-color: #FFDAC6;
@@ -98,30 +98,33 @@ section .healt__care--main .section__main--card .product__card {
   padding: 20px;
   border-radius: 8px;
 }
-section .healt__care--main .section__main--card .product__card .icon {
+section .healt__care--main .product__card .icon, section .forniture__main .product__card .icon {
   width: 100%;
   display: flex;
   justify-content: flex-end;
   padding-bottom: 12px;
 }
-section .healt__care--main .section__main--card .product__card .icon svg {
+section .healt__care--main .product__card .icon svg, section .forniture__main .product__card .icon svg {
   width: 28px;
   height: 28px;
   stroke-width: 2;
 }
-section .healt__care--main .section__main--card .product__card .product__img {
+section .healt__care--main .product__card .product__img, section .forniture__main .product__card .product__img {
   width: 100%;
   height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-section .healt__care--main .section__main--card .product__card .product__img img {
+section .healt__care--main .product__card .product__img img, section .forniture__main .product__card .product__img img {
   width: 14vw;
   height: 30vh;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 6px;
+}
+section .forniture__main .product__card {
+  background-color: #BABD8D;
 }
 
 footer {
