@@ -9,7 +9,9 @@ nav {
   width: auto;
   padding: 1.5rem;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   color: #7C6A0A;
   padding-top: 70px;
   font-weight: 500;
@@ -34,11 +36,15 @@ article {
   padding-right: 55px;
   padding-top: 70px;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 article .info__main {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
   padding-top: 5rem;
   gap: 25px;
 }
@@ -51,13 +57,16 @@ article p {
   font-size: 1.5rem;
 }
 article button {
+  background: none;
+  border-style: none;
+}
+article button {
   width: 12vw;
   padding: 20px;
   background: #FA9500;
-  border-style: none;
   border-radius: 1.5rem;
   font-size: 1rem;
-  color: #7C6A0A;
+  color: #FFEFE7;
 }
 article img {
   width: 25vw;
@@ -81,11 +90,12 @@ section .healt__care--main h2, section .forniture__main h2 {
   padding-bottom: 60px;
 }
 section .healt__care--main .section__main--card, section .forniture__main .section__main--card {
-  display: flex;
   width: auto;
   height: auto;
-  justify-content: center;
   flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   align-items: center;
   gap: 100px;
   row-gap: 80px;
@@ -125,6 +135,9 @@ section .healt__care--main .product__card .product__img img, section .forniture_
 }
 section .forniture__main .product__card {
   background-color: #BABD8D;
+}
+section .forniture__main .product__card h3, section .forniture__main .product__card p {
+  color: #FFEFE7;
 }
 
 footer {
