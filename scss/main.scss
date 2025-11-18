@@ -168,6 +168,33 @@ section {
     }
 }
 
+.about__us {
+    padding-bottom: 60px;
+    h2 {
+        font-weight: bold;
+        padding-bottom: 60px;
+    }
+    .mission__about-us {
+        @include flexCenter(row, space-evenly , center);
+        .earth__about {
+            width: 30vw;
+            display: flex;
+            gap: 40px;
+            color: #e86424;
+            img {
+                object-fit: contain;
+            }
+            p{
+                text-align: center;
+                font-size: $paragraph-size;
+            }
+        }
+    }
+    .innovation__about {
+        @extend .earth__about
+    }
+}
+
 footer {
     background-color: $fourth-color;
     width: 100%;
