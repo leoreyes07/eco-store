@@ -80,6 +80,11 @@ article {
         border-radius: 1.5rem;
         font-size: 1rem;
         color: $primary-color;
+        transition: all 300ms ease-in-out;
+
+        &:hover {
+            transform: scale(1.1);
+        }
     }
 
     img {
@@ -161,7 +166,8 @@ section {
         .product__card {
             background-color: $third-color;
 
-            h3, p {
+            h3,
+            p {
                 color: $primary-color;
             }
         }
@@ -170,28 +176,58 @@ section {
 
 .about__us {
     padding-bottom: 60px;
+
     h2 {
         font-weight: bold;
         padding-bottom: 60px;
     }
+
     .mission__about-us {
-        @include flexCenter(row, space-evenly , center);
+        @include flexCenter(row, space-evenly, center);
+
         .earth__about {
             width: 30vw;
             display: flex;
             gap: 40px;
             color: #e86424;
+
             img {
                 object-fit: contain;
             }
-            p{
+
+            p {
                 text-align: center;
                 font-size: $paragraph-size;
             }
         }
     }
+
     .innovation__about {
         @extend .earth__about
+    }
+}
+
+.gallery__main {
+    h2 {
+        font-weight: bold;
+        padding-bottom: 60px;
+    }
+
+    .gallery__images {
+        @include flexCenter(row, space-evenly, center);
+
+        img {
+            width: 20vw;
+            height: 40vh;
+            object-fit: cover;
+            object-position: 5px 35%;
+            border-radius: 16px;
+            transition: all 300ms ease-in-out;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
     }
 }
 
