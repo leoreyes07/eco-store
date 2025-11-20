@@ -196,8 +196,41 @@ section .forniture__main .product__card p {
   transform: scale(1.1);
 }
 
+.location__main {
+  color: #7C6A0A;
+}
+.location__main h2 {
+  padding-bottom: 60px;
+  padding-top: 40px;
+}
+.location__main .map__location {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.location__main h3 {
+  text-align: center;
+  font-size: 2.5em;
+}
+.location__main p {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
 footer {
   background-color: #FA9500;
   width: 100%;
-  height: 250px;
+  height: auto;
+  padding: 40px;
+  color: white;
+}
+footer .social__footer {
+  gap: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=main.css.map */
