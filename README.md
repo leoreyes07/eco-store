@@ -16,4 +16,3 @@ Eco-Store is designed as a basic storefront layout with reusable components and 
 
 You can open `index.html` in your browser to view the store UI locally.
 
-## Repository Structure
