@@ -5,7 +5,7 @@ This repository demonstrates a clean HTML, CSS, and SASS structure for building 
 
 ## Project Overview
 
-Eco-Store is designed as a basic storefront layout with reusable components and styling powered by SCSS. It’s ideal as a template for eco-commerce sites, landing pages, or front-end practice projects.
+Eco-Store is designed as a basic storefront layout with reusable components and styling powered by SASS. It’s ideal as a template for eco-commerce sites, landing pages, or front-end practice projects.
 
  **Languages & Tools Used**
 - **HTML** — Structure and layout of the store pages
