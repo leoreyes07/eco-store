@@ -1,7 +1,7 @@
 # Eco-Store
 
 **Eco-Store** is a static, responsive front-end web project for an eco-friendly online store interface.  
-This repository demonstrates a clean HTML, CSS, and SCSS structure for building an attractive and sustainable-themed store UI.
+This repository demonstrates a clean HTML, CSS, and SASS structure for building an attractive and sustainable-themed store UI.
 
 ## Project Overview
 
@@ -9,7 +9,7 @@ Eco-Store is designed as a basic storefront layout with reusable components and 
 
  **Languages & Tools Used**
 - **HTML** — Structure and layout of the store pages
-- **SCSS / CSS** — Modular styles and design
+- **SASS / CSS** — Modular styles and design
 - **Responsive design** — Works across mobile and desktop
 
 ## Live Preview
